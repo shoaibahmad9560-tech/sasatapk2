@@ -50,6 +50,13 @@ const Header = ({ onMenuClick, cartCount = 0 }) => {
 
                 {/* Right side group */}
                 <div className="flex items-center space-x-4 shrink-0 self-end sm:self-auto w-full sm:w-auto justify-end pl-2">
+                    {/* Urdu Tech Logo */}
+                    <div className="hidden lg:flex items-center border border-transparent hover:border-gray-500 p-1 px-2 rounded cursor-pointer shrink-0 transition-colors" dir="rtl">
+                        <span className="text-xl sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-l from-orange-400 to-yellow-500">
+                            سستا <span className="font-light text-white mr-1.5 tracking-normal">بازار پی کے</span>
+                        </span>
+                    </div>
+
                     {/* Returns & Orders */}
                     <div className="hidden sm:flex flex-col justify-center leading-tight border border-transparent hover:border-gray-500 p-1.5 rounded cursor-pointer h-11 transition-colors">
                         <span className="text-[11px] font-normal text-gray-400 tracking-wide">Returns</span>
